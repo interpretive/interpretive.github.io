@@ -1,10 +1,13 @@
-# Site settings
 title: Interpretive &ndash; Stop wasting time analyising your data and start selling more.
-email: your-email@domain.com
+email: team@interpretive.io
 description: Stop wasting time analyising your data and start selling more.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "//www.interpretive.io" # the base hostname & protocol for your site
-twitter_username: interpretiveapp
+baseurl: ""
+url: "//www.interpretive.io"
+app_url: "//app.interpretive.io"
+google_analytics: 123
+
+linkedin_username: interpretive
+twitter_username: theinterpretive
 github_username:  interpretive
 
 # Build settings

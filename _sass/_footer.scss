@@ -1,0 +1,52 @@
+footer {
+  background: #212b3a;
+  padding: 70px 0 40px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #d1dae8;
+
+  h3 {
+    font-size: 13px;
+    color: #6e7681;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 40px;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .links {
+    text-transform: uppercase;
+    text-decoration: none;
+
+    li {
+      margin-top: 15px;
+    }
+  }
+
+  .powered {
+    font-size: 13px;
+    margin-top: 90px;
+    color: #6e7681;
+
+    ul li {
+      display: inline-block;
+      padding-right: 16px;
+    }
+
+    a {
+      color: #6e7681;
+    }
+  }
+}
