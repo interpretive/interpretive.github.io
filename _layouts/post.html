@@ -12,4 +12,15 @@ layout: default
     {{ content }}
   </article>
 
+
+  <!-- Look the author details up from the site config. -->
+  {% assign author = site.data.authors[page.author] %}
+
+  <!-- Output author details if some exist. -->
+  {% if author %}
+      <span>
+          <!-- Personal Info. -->
+          Written by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+      </span>
+  {% endif %}
 </div>
